@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameCar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Picanto"
+        android:textSize="20dp"
+        android:textColor="#80061C"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#CCCCCC"
+       >
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/kia_proceed_gt_my24_range_v3_520x260" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/infoKia1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" 1.0 DPi 67 ch ISG (Essence , BVM)"  />
+
+            <TextView
+                android:id="@+id/infoKia2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Couple maximal (Nm/tr/min)
+998
+49 kW / 67 ch" />
+
+            <TextView
+                android:id="@+id/prix1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#80061C"
+                android:text="Prix : 150.70 TND TTC" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="je réserve" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Polo"
+        android:textSize="20dp"
+        android:textColor="#80061C"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#CCCCCC">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/pngegg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/infoPolo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" Transmission Automatic Max Power(ps)76
+" />
+
+            <TextView
+                android:id="@+id/prix2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" Max Torque(Nm)
+   175
+   Mileage
+   16.47 Kmpl" />
+
+            <TextView
+                android:id="@+id/PrixCar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#80061C"
+                android:text="Prix : 166.80 TND TTC" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="je réserve" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mercedes"
+        android:textSize="20dp"
+        android:textColor="#80061C"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#CCCCCC">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/pngwing_com" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/infoMers1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" Good fuel economy with C 300
+" />
+
+            <TextView
+                android:id="@+id/infoMers2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" acceleration from AMG C 43 and C 63 S E " />
+
+            <TextView
+                android:id="@+id/prix3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#80061C"
+                android:text="Prix : 200.70 TND TTC" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="je réserve" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/nameCar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suzuki"
+        android:textSize="20dp"
+        android:textColor="#80061C"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#CCCCCC">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/suzuki" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/infoSuz1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" NOMBRE DE CYLINDRES	4" />
+
+            <TextView
+                android:id="@+id/infoSuz2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" ENERGIE Essence /
+CYLINDRÉE	1462 CM³" />
+
+            <TextView
+                android:id="@+id/prix4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Prix : 158.40 TND TTC"
+                android:textColor="#80061C"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="je réserve" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
